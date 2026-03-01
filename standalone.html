@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keto Przewodnik - 450 Przepisów Keto na Thermomix</title>
+    <meta name="description" content="Oszczędzaj czas i zadbaj o zdrowie z 450 przepisami keto na Thermomix. Automatyczny import do Cookidoo™, policzone makroskładniki e-book PDF.">
+    
+    <!-- Resource Hints -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://i.imgur.com">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🥑</text></svg>">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            green: '#22c55e',
+                            'green-dark': '#16a34a',
+                            navy: '#0f172a',
+                        }
+                    },
+                    boxShadow: {
+                        'soft': '0 10px 30px -10px rgba(0, 0, 0, 0.1)',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .rotate-3 { transform: rotate(3deg); }
+        .-rotate-2 { transform: rotate(-2deg); }
+        .selection\:bg-brand-green\/30 ::selection { background-color: rgba(34, 197, 94, 0.3); }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+        }
+        .animate-float {
+            animation: float 5s ease-in-out infinite;
+        }
+    </style>
+</head>
+<body class="min-h-screen bg-white selection:bg-brand-green/30 font-sans text-slate-900">
+
+    <!-- Top Banner -->
+    <div class="bg-brand-green text-white py-2 text-center text-sm font-bold tracking-wide uppercase">
+        🔥 Oferta Limitowana -50%
+    </div>
+
+    <!-- Hero Section -->
+    <header class="relative pt-6 pb-12 px-6 overflow-hidden bg-[#f1fcf6]">
+        <div class="max-w-6xl mx-auto">
+            <!-- Logo -->
+            <div class="flex items-center justify-center gap-1 mb-6 lg:mb-8">
+                <i data-lucide="chef-hat" class="h-8 w-8 text-brand-green"></i>
+                <span class="text-3xl font-black text-slate-800 tracking-tight">
+                    Keto<span class="text-brand-green">Przewodnik</span>
+                </span>
+            </div>
+
+            <div class="grid lg:grid-cols-2 gap-8 items-center">
+                <!-- Left Content -->
+                <div class="flex flex-col items-center text-center lg:items-start lg:text-left">
+                    <div class="flex items-center gap-4 mb-4">
+                        <div class="flex items-center gap-2">
+                            <div class="flex -space-x-2">
+                                <div class="h-6 w-6 rounded-full border-2 border-white bg-slate-200 flex items-center justify-center text-[8px] font-bold text-slate-500">MH</div>
+                                <div class="h-6 w-6 rounded-full border-2 border-white bg-slate-300 flex items-center justify-center text-[8px] font-bold text-slate-600">AK</div>
+                                <div class="h-6 w-6 rounded-full border-2 border-white bg-brand-green/20 flex items-center justify-center text-[8px] font-bold text-brand-green">KS</div>
+                            </div>
+                            <p class="text-[11px] font-bold text-slate-500">Już 9000+ zadowolonych klientów</p>
+                        </div>
+                    </div>
+                    
+                    <h1 class="text-3xl sm:text-4xl md:text-6xl font-black text-slate-900 leading-tight mb-4">
+                        450 Przepisów Keto <br>
+                        <span class="text-brand-green">na Thermomix</span>
+                    </h1>
+                    
+                    <p class="text-sm sm:text-lg text-slate-700 mb-6 leading-relaxed max-w-xl">
+                        Oszczędzaj czas i <span class="font-bold">zadbaj o zdrowie</span>. Otrzymasz kompletny zestaw, przepisy z policzonymi makroskładnikami oraz funkcją <span class="font-bold">automatycznego importu do Cookidoo™</span>.
+                    </p>
+
+                    <div class="w-full max-w-md lg:max-w-none">
+                        <a href="https://pay.hotmart.com/J104701484P" target="_blank" rel="noopener noreferrer" class="w-full lg:w-auto bg-brand-green hover:bg-brand-green-dark text-white px-6 sm:px-10 py-4 rounded-full font-black text-sm sm:text-lg shadow-xl shadow-brand-green/30 transition-all flex items-center justify-center gap-2 sm:gap-3 mb-4 whitespace-nowrap">
+                            <i data-lucide="arrow-right" class="h-4 w-4 sm:h-5 sm:w-5 rotate-90"></i>
+                            SPRAWDŹ PAKIET (OD 67 ZŁ)
+                        </a>
+                        <div class="flex items-center justify-center lg:justify-start gap-2 text-[10px] font-bold text-slate-400 mb-4">
+                            <i data-lucide="clock" class="h-3 w-3"></i>
+                            <span>Automat 24/7 - Dostęp natychmiast</span>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col items-center lg:items-start gap-6">
+                        <div class="flex items-center gap-2 text-sm font-bold text-slate-600">
+                            <div class="h-5 w-5 rounded-full border-2 border-brand-green flex items-center justify-center">
+                                <i data-lucide="check" class="h-3 w-3 text-brand-green"></i>
+                            </div>
+                            <span>30-dniowa gwarancja zwrotu pieniędzy</span>
+                        </div>
+
+                        <div class="flex flex-row justify-center lg:justify-start gap-1.5 opacity-90">
+                            <div class="bg-white rounded-md shadow-sm border border-slate-100 flex items-center justify-center h-8 w-12 p-0.5">
+                                <img src="https://i.imgur.com/s5NjsZL.png" class="h-full w-full object-contain" alt="Blik">
+                            </div>
+                            <div class="bg-white px-2.5 py-1 rounded-md shadow-sm border border-slate-100 flex items-center h-8">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg" class="h-4" alt="PayPal">
+                            </div>
+                            <div class="bg-white px-2.5 py-1 rounded-md shadow-sm border border-slate-100 flex items-center h-8">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Apple_Pay_logo.svg/512px-Apple_Pay_logo.svg.png" class="h-4" alt="Apple Pay">
+                            </div>
+                            <div class="bg-white px-2.5 py-1 rounded-md shadow-sm border border-slate-100 flex items-center h-8">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/c/c7/Google_Pay_Logo_%282020%29.svg" class="h-4" alt="Google Pay">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Mockup -->
+                <div class="relative flex justify-center lg:justify-end mt-4 lg:mt-0 animate-float">
+                    <div class="relative w-[260px] sm:w-[320px] lg:w-[480px]">
+                        <img src="https://i.imgur.com/VfSB49f.png" alt="450 Przepisów Keto APP" class="w-full drop-shadow-[0_50px_50px_rgba(0,0,0,0.15)]" fetchpriority="high">
+                        <div class="absolute bottom-2 -right-4 lg:-right-8 w-[80%] bg-white p-3 rounded-xl shadow-2xl flex items-center gap-3 border border-slate-100">
+                            <div class="h-10 w-10 bg-brand-green/10 rounded-full flex items-center justify-center text-brand-green">
+                                <i data-lucide="check" class="h-5 w-5"></i>
+                            </div>
+                            <div class="text-left">
+                                <p class="text-xs font-black text-slate-900 leading-tight">Import do Cookidoo™</p>
+                                <p class="text-[9px] font-bold text-slate-400 uppercase tracking-widest">Kompatybilne z TM6/TM7</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Benefits Section -->
+    <section class="py-24 bg-slate-50 px-6">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-16">
+                <span class="text-brand-green font-bold text-sm uppercase tracking-widest">Twoje korzyści</span>
+                <h2 class="text-3xl md:text-4xl font-extrabold text-slate-900 mt-2">Dlaczego warto?</h2>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="flex flex-col items-center text-center p-6 bg-white rounded-2xl transition-transform hover:-translate-y-1 shadow-soft">
+                    <div class="h-12 w-12 rounded-xl bg-brand-green/10 flex items-center justify-center mb-4">
+                        <i data-lucide="book-open" class="h-6 w-6 text-brand-green"></i>
+                    </div>
+                    <h3 class="font-bold text-slate-900 mb-2">450 Przepisów Keto APP</h3>
+                    <p class="text-sm text-slate-600 leading-relaxed">Gotowe do importu do Cookidoo™. Oszczędzasz czas na ręcznym wpisywaniu.</p>
+                </div>
+                <div class="flex flex-col items-center text-center p-6 bg-white rounded-2xl transition-transform hover:-translate-y-1 shadow-soft">
+                    <div class="h-12 w-12 rounded-xl bg-brand-green/10 flex items-center justify-center mb-4">
+                        <i data-lucide="layout-grid" class="h-6 w-6 text-brand-green"></i>
+                    </div>
+                    <h3 class="font-bold text-slate-900 mb-2">Organizacja</h3>
+                    <p class="text-sm text-slate-600 leading-relaxed">Śniadania, obiady, kolacje, desery i przekąski. Wszystko w jednym miejscu.</p>
+                </div>
+                <div class="flex flex-col items-center text-center p-6 bg-white rounded-2xl transition-transform hover:-translate-y-1 shadow-soft">
+                    <div class="h-12 w-12 rounded-xl bg-brand-green/10 flex items-center justify-center mb-4">
+                        <i data-lucide="clock" class="h-6 w-6 text-brand-green"></i>
+                    </div>
+                    <h3 class="font-bold text-slate-900 mb-2">Oszczędność</h3>
+                    <p class="text-sm text-slate-600 leading-relaxed">Koniec z planowaniem i marnowaniem jedzenia. Gotujesz to, co masz w planie.</p>
+                </div>
+                <div class="flex flex-col items-center text-center p-6 bg-white rounded-2xl transition-transform hover:-translate-y-1 shadow-soft">
+                    <div class="h-12 w-12 rounded-xl bg-brand-green/10 flex items-center justify-center mb-4">
+                        <i data-lucide="scale" class="h-6 w-6 text-brand-green"></i>
+                    </div>
+                    <h3 class="font-bold text-slate-900 mb-2">Makra</h3>
+                    <p class="text-sm text-slate-600 leading-relaxed">Policzone kalorie, białko, tłuszcze i węglowodany dla każdego przepisu.</p>
+                </div>
+                <div class="flex flex-col items-center text-center p-6 bg-white rounded-2xl transition-transform hover:-translate-y-1 shadow-soft">
+                    <div class="h-12 w-12 rounded-xl bg-brand-green/10 flex items-center justify-center mb-4">
+                        <i data-lucide="smile" class="h-6 w-6 text-brand-green"></i>
+                    </div>
+                    <h3 class="font-bold text-slate-900 mb-2">Prostota</h3>
+                    <p class="text-sm text-slate-600 leading-relaxed">Składniki dostępne w każdym sklepie (Biedronka, Lidl). Bez wymyślnych produktów.</p>
+                </div>
+                <div class="flex flex-col items-center text-center p-6 bg-white rounded-2xl transition-transform hover:-translate-y-1 shadow-soft">
+                    <div class="h-12 w-12 rounded-xl bg-brand-green/10 flex items-center justify-center mb-4">
+                        <i data-lucide="droplets" class="h-6 w-6 text-brand-green"></i>
+                    </div>
+                    <h3 class="font-bold text-slate-900 mb-2">Niski IG</h3>
+                    <p class="text-sm text-slate-600 leading-relaxed">Stabilny poziom cukru we krwi i brak napadów głodu dzięki diecie keto.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="py-24 px-6">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-16">
+                <span class="text-brand-green font-bold text-sm uppercase tracking-widest">Recenzje</span>
+                <h2 class="text-3xl md:text-4xl font-extrabold text-slate-900 mt-2">Co o nas mówią</h2>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Review 1 -->
+                <div class="bg-white p-6 rounded-2xl shadow-soft border border-slate-100 flex flex-col h-full">
+                    <div class="flex gap-1 mb-4">
+                        <i data-lucide="star" class="h-4 w-4 fill-yellow-400 text-yellow-400"></i>
+                        <i data-lucide="star" class="h-4 w-4 fill-yellow-400 text-yellow-400"></i>
+                        <i data-lucide="star" class="h-4 w-4 fill-yellow-400 text-yellow-400"></i>
+                        <i data-lucide="star" class="h-4 w-4 fill-yellow-400 text-yellow-400"></i>
+                        <i data-lucide="star" class="h-4 w-4 fill-yellow-400 text-yellow-400"></i>
+                    </div>
+                    <p class="text-slate-700 italic mb-6 flex-grow">"Najlepsze eBooki jakie kupiłam, bardzo dużo przepisów, super opracowane graficznie, wszystko w sekundę zapisuje się w cookidoo, aż chce się z tego korzystać i gotować 👍"</p>
+                    <div class="flex items-center gap-3">
+                        <div class="h-10 w-10 rounded-full bg-slate-100 flex items-center justify-center font-bold text-slate-500">A</div>
+                        <div>
+                            <p class="font-bold text-slate-900">Aleksandra</p>
+                            <p class="text-xs text-brand-green flex items-center gap-1"><i data-lucide="shield-check" class="h-3 w-3"></i> Zweryfikowany zakup</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Review 2 -->
+                <div class="bg-white p-6 rounded-2xl shadow-soft border border-slate-100 flex flex-col h-full">
+                    <div class="flex gap-1 mb-4">
+                        <i data-lucide="star" class="h-4 w-4 fill-yellow-400 text-yellow-400"></i>
+                        <i data-lucide="star" class="h-4 w-4 fill-yellow-400 text-yellow-400"></i>
+                        <i data-lucide="star" class="h-4 w-4 fill-yellow-400 text-yellow-400"></i>
+                        <i data-lucide="star" class="h-4 w-4 fill-yellow-400 text-yellow-400"></i>
+                        <i data-lucide="star" class="h-4 w-4 fill-yellow-400 text-yellow-400"></i>
+                    </div>
+                    <p class="text-slate-700 italic mb-6 flex-grow">"Naprawdę dobra robota. Moje dzieci zachwycone mini pizzami, które są pyszne, małe ale za to bardzo syte 🙂. Mąż też zadowolony z sernika na zimno."</p>
+                    <div class="flex items-center gap-3">
+                        <div class="h-10 w-10 rounded-full bg-slate-100 flex items-center justify-center font-bold text-slate-500">K</div>
+                        <div>
+                            <p class="font-bold text-slate-900">Kasia</p>
+                            <p class="text-xs text-brand-green flex items-center gap-1"><i data-lucide="shield-check" class="h-3 w-3"></i> Zweryfikowany zakup</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Review 3 -->
+                <div class="bg-white p-6 rounded-2xl shadow-soft border border-slate-100 flex flex-col h-full">
+                    <div class="flex gap-1 mb-4">
+                        <i data-lucide="star" class="h-4 w-4 fill-yellow-400 text-yellow-400"></i>
+                        <i data-lucide="star" class="h-4 w-4 fill-yellow-400 text-yellow-400"></i>
+                        <i data-lucide="star" class="h-4 w-4 fill-yellow-400 text-yellow-400"></i>
+                        <i data-lucide="star" class="h-4 w-4 fill-yellow-400 text-yellow-400"></i>
+                        <i data-lucide="star" class="h-4 w-4 fill-yellow-400 text-yellow-400"></i>
+                    </div>
+                    <p class="text-slate-700 italic mb-6 flex-grow">"Kupiłem... i... jestem mega zadowolony! Tyle sensownych przepisów urozmaici moje Keto! Omg, zakup roku! Dziękuję ❤️"</p>
+                    <div class="flex items-center gap-3">
+                        <div class="h-10 w-10 rounded-full bg-slate-100 flex items-center justify-center font-bold text-slate-500">T</div>
+                        <div>
+                            <p class="font-bold text-slate-900">Tomasz</p>
+                            <p class="text-xs text-brand-green flex items-center gap-1"><i data-lucide="shield-check" class="h-3 w-3"></i> Zweryfikowany zakup</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="py-24 bg-slate-50 px-6">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-16">
+                <span class="text-brand-green font-bold text-sm uppercase tracking-widest">Przykładowe przepisy</span>
+                <h2 class="text-3xl md:text-4xl font-extrabold text-slate-900 mt-2">Zobacz, co będziesz gotować</h2>
+            </div>
+
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+                <div class="aspect-square rounded-2xl overflow-hidden shadow-soft transition-transform hover:scale-[1.02]">
+                    <img src="https://i.imgur.com/gEjXLrj.png" alt="Keto Recipe 1" class="w-full h-full object-cover" loading="lazy">
+                </div>
+                <div class="aspect-square rounded-2xl overflow-hidden shadow-soft transition-transform hover:scale-[1.02]">
+                    <img src="https://i.imgur.com/ymaBGxc.png" alt="Keto Recipe 2" class="w-full h-full object-cover" loading="lazy">
+                </div>
+                <div class="aspect-square rounded-2xl overflow-hidden shadow-soft transition-transform hover:scale-[1.02]">
+                    <img src="https://i.imgur.com/X0HOupL.png" alt="Keto Recipe 3" class="w-full h-full object-cover" loading="lazy">
+                </div>
+                <div class="aspect-square rounded-2xl overflow-hidden shadow-soft transition-transform hover:scale-[1.02]">
+                    <img src="https://i.imgur.com/3WoCKnX.png" alt="Keto Recipe 4" class="w-full h-full object-cover" loading="lazy">
+                </div>
+                <div class="aspect-square rounded-2xl overflow-hidden shadow-soft transition-transform hover:scale-[1.02]">
+                    <img src="https://i.imgur.com/iiGiaaR.png" alt="Keto Recipe 5" class="w-full h-full object-cover" loading="lazy">
+                </div>
+                <div class="aspect-square rounded-2xl overflow-hidden shadow-soft transition-transform hover:scale-[1.02]">
+                    <img src="https://i.imgur.com/No3dzYK.png" alt="Keto Recipe 6" class="w-full h-full object-cover" loading="lazy">
+                </div>
+            </div>
+            <p class="text-center font-bold text-slate-700 mt-10">...i ponad 1200 innych pysznych inspiracji w pakiecie!</p>
+            
+            <div class="mt-12 max-w-2xl mx-auto">
+                <div class="relative rounded-3xl shadow-2xl overflow-hidden border-4 border-white">
+                    <video src="https://i.imgur.com/m5pI0fS.mp4" autoPlay loop muted playsInline class="w-full h-full object-cover"></video>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How it works Section -->
+    <section class="py-24 bg-brand-navy text-white px-6">
+        <div class="max-w-6xl mx-auto">
+            <div class="grid lg:grid-cols-2 gap-16 items-center">
+                <div>
+                    <h2 class="text-brand-green font-bold text-sm uppercase tracking-widest mb-4">Jak działa Automatyczny Import?</h2>
+                    <h3 class="text-3xl md:text-4xl font-extrabold mb-8">Koniec z ręcznym wpisywaniem!</h3>
+                    
+                    <div class="space-y-8">
+                        <div class="flex gap-6">
+                            <div class="h-12 w-12 rounded-full bg-brand-green/20 flex items-center justify-center shrink-0 border border-brand-green/30">
+                                <i data-lucide="smartphone" class="h-6 w-6 text-brand-green"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-xl mb-2">1. Klikasz w link</h4>
+                                <p class="text-slate-400">W e-booku znajdziesz przycisk przy każdym przepisie.</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-6">
+                            <div class="h-12 w-12 rounded-full bg-brand-green/20 flex items-center justify-center shrink-0 border border-brand-green/30">
+                                <i data-lucide="mouse-pointer-2" class="h-6 w-6 text-brand-green"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-xl mb-2">2. Zapisujesz</h4>
+                                <p class="text-slate-400">Przepis trafia do zakładki "Utworzone przepisy" w Twoim Cookidoo.</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-6">
+                            <div class="h-12 w-12 rounded-full bg-brand-green/20 flex items-center justify-center shrink-0 border border-brand-green/30">
+                                <i data-lucide="chef-hat" class="h-6 w-6 text-brand-green"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-xl mb-2">3. Gotujesz z przewodnikiem</h4>
+                                <p class="text-slate-400">Włączasz Thermomix i gotujesz krok po kroku na ekranie.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="relative">
+                    <img src="https://i.imgur.com/8Pli1fy.png" alt="Thermomix Screen" class="rounded-3xl shadow-2xl border-4 border-slate-800">
+                    <div class="absolute -top-6 -right-6 bg-brand-green text-white p-6 rounded-2xl shadow-xl rotate-3">
+                        <p class="text-xs font-bold uppercase tracking-widest opacity-80">Oszczędność czasu</p>
+                        <p class="text-2xl font-black">100% AUTO</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="py-24 px-6 bg-slate-50">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-5xl font-extrabold text-slate-900">Wybierz swój pakiet</h2>
+                <p class="text-slate-600 mt-4">Wybierając pakiet MAX oszczędzasz 100 zł względem zakupu produktów osobno.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto items-stretch">
+                <!-- Pakiet Max -->
+                <div class="bg-white rounded-[40px] shadow-2xl border-2 border-brand-green relative flex flex-col p-10">
+                    <div class="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-[#f87171]/80 backdrop-blur-sm text-white px-6 py-1.5 rounded-full text-[10px] font-black uppercase tracking-widest flex items-center gap-2 whitespace-nowrap border border-white/20">
+                        <i data-lucide="clock" class="h-3 w-3"></i> 🔥 OFERTA LIMITOWANA
+                    </div>
+                    
+                    <div class="flex-grow">
+                        <div class="flex justify-between items-start mb-6">
+                            <div>
+                                <p class="text-brand-green font-bold text-xs uppercase tracking-wider mb-1">Oszczędzasz 100 zł</p>
+                                <h3 class="text-3xl font-black text-slate-900">PAKIET MAX</h3>
+                            </div>
+                            <div class="h-10 w-10 bg-brand-green/10 rounded-lg flex items-center justify-center">
+                                <i data-lucide="star" class="h-5 w-5 text-brand-green fill-brand-green"></i>
+                            </div>
+                        </div>
+                        <div class="flex items-baseline gap-3 mb-2">
+                            <span class="text-slate-400 line-through text-xl font-medium">197 zł</span>
+                            <span class="text-6xl font-black text-slate-900">97 zł</span>
+                        </div>
+                        <p class="text-[10px] text-slate-400 mb-8">*Wartość produktów kupowanych osobno</p>
+                        <div class="border-t border-slate-100 pt-6 mb-6">
+                            <p class="font-bold text-slate-900 mb-4">Wszystko na Thermomix:</p>
+                            <ul class="space-y-4">
+                                <li class="flex items-center gap-3 text-sm font-bold text-slate-800">
+                                    <div class="h-5 w-5 rounded-full bg-brand-green/20 flex items-center justify-center shrink-0"><i data-lucide="check" class="h-3 w-3 text-brand-green"></i></div>
+                                    <span>450 Przepisów Keto APP TM</span>
+                                </li>
+                                <li class="flex items-center gap-3 text-sm font-bold text-slate-800">
+                                    <div class="h-5 w-5 rounded-full bg-brand-green/20 flex items-center justify-center shrink-0"><i data-lucide="check" class="h-3 w-3 text-brand-green"></i></div>
+                                    <span>+ 500 Extra Przepisów TM</span>
+                                </li>
+                                <li class="flex items-center gap-3 text-sm font-bold text-slate-800">
+                                    <div class="h-5 w-5 rounded-full bg-brand-green/20 flex items-center justify-center shrink-0"><i data-lucide="check" class="h-3 w-3 text-brand-green"></i></div>
+                                    <span>200 Przepisów na Smoothie TM</span>
+                                </li>
+                                <li class="flex items-center gap-3 text-sm font-bold text-slate-800">
+                                    <div class="h-5 w-5 rounded-full bg-brand-green/20 flex items-center justify-center shrink-0"><i data-lucide="check" class="h-3 w-3 text-brand-green"></i></div>
+                                    <span>80 Przepisów na Pieczywo TM</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="space-y-3 mb-10">
+                            <div class="bg-brand-green/5 border border-brand-green/10 p-4 rounded-xl flex gap-3 items-start">
+                                <i data-lucide="book-open" class="h-5 w-5 text-brand-green shrink-0 mt-0.5"></i>
+                                <p class="text-sm font-bold text-brand-green leading-tight">BONUS: Przewodnik "Keto z Thermomixem"</p>
+                            </div>
+                            <div class="bg-brand-green/5 border border-brand-green/10 p-4 rounded-xl flex gap-3 items-start">
+                                <i data-lucide="droplets" class="h-5 w-5 text-brand-green shrink-0 mt-0.5"></i>
+                                <p class="text-sm font-bold text-brand-green leading-tight">BONUS: Przepis na Napój Wspierający Jelita</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="space-y-4">
+                        <a href="https://pay.hotmart.com/J104701484P" target="_blank" rel="noopener noreferrer" class="w-full bg-brand-green hover:bg-brand-green-dark text-white font-black py-5 rounded-2xl shadow-xl shadow-brand-green/30 transition-all flex items-center justify-center gap-3 text-lg">
+                            <i data-lucide="shield-check" class="h-6 w-6"></i> KUP PAKIET (97 ZŁ)
+                        </a>
+                        <div class="flex justify-center gap-1.5 pt-2 opacity-90">
+                            <img src="https://i.imgur.com/s5NjsZL.png" class="h-8" alt="Blik">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg" class="h-8" alt="PayPal">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Apple_Pay_logo.svg/512px-Apple_Pay_logo.svg.png" class="h-8" alt="Apple Pay">
+                        </div>
+                    </div>
+                </div>
+                <!-- Tylko E-book -->
+                <div class="bg-white rounded-[40px] shadow-soft border border-slate-100 flex flex-col p-10">
+                    <div class="flex-grow">
+                        <div class="mb-8">
+                            <h3 class="text-2xl font-black text-slate-900">Tylko E-book</h3>
+                            <p class="text-slate-400 text-sm">Wersja Podstawowa</p>
+                        </div>
+                        <div class="mb-10"><p class="text-5xl font-black text-slate-900">67 zł</p></div>
+                        <ul class="space-y-5 mb-12">
+                            <li class="flex items-center gap-3 text-sm font-medium text-slate-600"><i data-lucide="check" class="h-4 w-4 text-brand-green shrink-0"></i> 450 Przepisów Keto APP TM</li>
+                            <li class="flex items-center gap-3 text-sm font-medium text-slate-600"><i data-lucide="check" class="h-4 w-4 text-brand-green shrink-0"></i> Import do Cookidoo™</li>
+                            <li class="flex items-center gap-3 text-sm font-medium text-slate-600"><i data-lucide="check" class="h-4 w-4 text-brand-green shrink-0"></i> Dostęp 24/7</li>
+                        </ul>
+                    </div>
+                    <a href="https://pay.hotmart.com/J104701484P" target="_blank" rel="noopener noreferrer" class="w-full border border-slate-200 text-slate-700 font-bold py-4 rounded-full hover:bg-slate-50 transition-all flex items-center justify-center">Chcę tylko podstawę</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-24 px-6 bg-slate-50">
+        <div class="max-w-3xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-extrabold text-slate-900">Masz pytania?</h2>
+            </div>
+            
+            <div class="bg-white rounded-3xl p-8 shadow-soft border border-slate-100 space-y-2">
+                <div class="faq-item border-b border-slate-200 py-4 cursor-pointer">
+                    <div class="flex items-center justify-between font-semibold text-slate-800">
+                        <span>Na jakich modelach urządzeń działają przepisy?</span>
+                        <i data-lucide="chevron-down" class="h-5 w-5 text-slate-400 transition-transform"></i>
+                    </div>
+                    <div class="faq-answer hidden mt-3 text-slate-600 leading-relaxed">
+                        Przepisy są opracowane dla TM6, TM5, TM31 i TM7. Świetnie sprawdzają się również w urządzeniu Lidlomix (Monsieur Cuisine). Automatyczny import do Cookidoo™ działa wyłącznie na modelach TM6 i TM7. Posiadacze Lidlomixa i starszych modeli Thermomix korzystają z wygodnego formatu PDF.
+                    </div>
+                </div>
+                <div class="faq-item border-b border-slate-200 py-4 cursor-pointer">
+                    <div class="flex items-center justify-between font-semibold text-slate-800">
+                        <span>Czy potrzebuję abonamentu Cookidoo?</span>
+                        <i data-lucide="chevron-down" class="h-5 w-5 text-slate-400 transition-transform"></i>
+                    </div>
+                    <div class="faq-answer hidden mt-3 text-slate-600 leading-relaxed">
+                        Aby korzystać z funkcji importu przepisów, wymagane jest aktywne konto Cookidoo. Jeśli go nie masz, nadal możesz korzystać z przepisów w formie e-booka PDF.
+                    </div>
+                </div>
+                <div class="faq-item border-b border-slate-200 py-4 cursor-pointer">
+                    <div class="flex items-center justify-between font-semibold text-slate-800">
+                        <span>Czy to jest płatność jednorazowa?</span>
+                        <i data-lucide="chevron-down" class="h-5 w-5 text-slate-400 transition-transform"></i>
+                    </div>
+                    <div class="faq-answer hidden mt-3 text-slate-600 leading-relaxed">
+                        Tak, płacisz tylko raz i otrzymujesz dożywotni dostęp do materiałów oraz wszystkich przyszłych aktualizacji tego e-booka.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-brand-navy text-white py-20 px-6">
+        <div class="max-w-6xl mx-auto text-center">
+            <h2 class="text-2xl font-black mb-8">KetoPrzewodnik</h2>
+            <div class="flex flex-wrap justify-center gap-8 text-sm text-slate-400 mb-12">
+                <a href="#" class="hover:text-white transition-colors">Regulamin</a>
+                <a href="#" class="hover:text-white transition-colors">Polityka Prywatności</a>
+                <a href="#" class="hover:text-white transition-colors">Kontakt</a>
+            </div>
+            <div class="border-t border-white/10 pt-12">
+                <p class="text-xs text-slate-500 mb-8">© 2025 KetoPrzewodnik.pl. Wszelkie prawa zastrzeżone.</p>
+                <p class="text-[10px] text-slate-600 max-w-4xl mx-auto leading-relaxed">
+                    Ta strona nie jest częścią serwisu Facebook ani firmy Meta Platforms, Inc. Ponadto, strona ta NIE jest w żaden sposób sponsorowana przez Facebook. FACEBOOK jest znakiem towarowym firmy Meta Platforms, Inc. Efekty diety keto zależą od indywidualnych czynników i stylu życia. Dokładamy starań, by nasze przepisy i wskazówki były przydatne, ale nie zastępują one profesjonalnych konsultacji. Przed zmianą diety skonsultuj się z lekarzem lub dietetykiem. Thermomix to zarejestrowany znak towarowy firmy Vorwerk.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Initialize Lucide Icons
+        lucide.createIcons();
+
+        // FAQ Toggle Logic
+        document.querySelectorAll('.faq-item').forEach(item => {
+            item.addEventListener('click', () => {
+                const answer = item.querySelector('.faq-answer');
+                const icon = item.querySelector('i');
+                const isHidden = answer.classList.contains('hidden');
+                
+                // Close all other FAQs
+                document.querySelectorAll('.faq-answer').forEach(el => el.classList.add('hidden'));
+                document.querySelectorAll('.faq-item i').forEach(el => el.style.transform = 'rotate(0deg)');
+                
+                if (isHidden) {
+                    answer.classList.remove('hidden');
+                    icon.style.transform = 'rotate(180deg)';
+                }
+            });
+        });
+    </script>
+</body>
+</html>
